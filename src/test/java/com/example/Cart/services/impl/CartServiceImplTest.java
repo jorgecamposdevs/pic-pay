@@ -5,6 +5,7 @@ import com.example.Cart.entities.FriendsEntity;
 import com.example.Cart.entities.ItemsEntity;
 import com.example.Cart.entities.ItemsFriendsEntity;
 import com.example.Cart.repositories.CartRepository;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -51,7 +52,8 @@ class CartServiceImplTest {
         when(cartRepository.save(cartEntity)).thenReturn(cartEntity);
         CartEntity cart = cartService.addProduct(cartEntity);
 
-        assertEquals(cartEntity, cart);
+        Assertions.assertEquals(cartEntity, cart);
+        Assertions.assertNotNull(cart);
         verifyNoMoreInteractions(cartRepository);
     }
 }
