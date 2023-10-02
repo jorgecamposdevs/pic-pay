@@ -1,0 +1,15 @@
+swagger:
+  contact:
+    name: Jorge Campos
+    email: "jorgecamposdevs@gmail.com"
+  app:
+    name: Cart Api
+    version: 0.1.0
+    description: Bem-vindo ao Sistema de Carrinho de Compra! Nossa API é uma poderosa ferramenta para simplificar e otimizar as vendas da sua empresa. Com recursos modernos e seguros, oferecemos uma experiência inovadora e eficiente para administrar as informações dos funcionários.
+  base:
+    package: com.example.Cart
+
+spring:
+  data:
+    mongodb:
+      uri: ${SPRING_DATA_MONGODB_URI}
