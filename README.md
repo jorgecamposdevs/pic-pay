@@ -7,7 +7,7 @@ O que você precisa instalar para rodar o projeto?
 * [JRE-17](https://www.oracle.com/technetwork/pt/java/javase/downloadsjre8-downloads-2133155.html)
 ### Instalação
 ```
- git@github.com:jorgecamposdevs/Sistema-de-Gest-o-de-Funcion-rios.git
+ git@github.com:jorgecamposdevs/pic-pay.git
 ```
 ### Como rodar a API
 ```
